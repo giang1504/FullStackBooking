@@ -1,0 +1,107 @@
+.login-background{
+    height: 100vh;
+    background-image: url(https://vapa.vn/wp-content/uploads/2022/12/anh-nen-hd-001.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    
+    .login-container{
+        width: 400px;
+        position: absolute;
+        margin: auto;
+        border-radius: 10px;
+        background-color: #e3e3e3e3;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        height: 500px;
+
+        .login-content{
+            padding: 10px;
+            font-size: 18px;
+            font-weight: 550;
+
+
+            .text-login{
+                text-align: center;
+                font-weight: 600;
+                font-size: 24px;
+                padding-top: 10px;
+            }
+            .login-input{
+                margin: 7px 0;
+                .custom-input-password {
+                   position: relative;
+                   i{
+                    position: absolute;
+                    right: 10px;
+                    top: 7px;
+                    cursor: pointer;
+                   }
+                }
+            }
+            .btn-login{
+                width:100%;
+                margin: 10px 0;
+                height: 35px;
+                border-radius: 3px;
+                outline: none;
+                border: none;
+                color:white;
+                font-size: 16px;
+                border-radius: 15px;
+                background: linear-gradient(to right, #99004d 0%, #ff0080 100%);
+
+            }
+            .forgot-password{
+                font-size: 12px;
+            }
+            .social-login{
+                display: flex;
+                text-align: center;
+                justify-content: center;
+                margin-top: 10px;
+                
+               .google{
+                font-size: 30px;
+                background: #c32424;
+                border-radius: 50%;
+                height: 50px;
+                width: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: white;
+                margin-right: 15px;
+               }
+               .facebook {
+                font-size: 30px;
+                background: #2429c3;
+                border-radius: 50%;
+                height: 50px;
+                width: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: white;
+               }
+               .twitter{
+                font-size: 30px;
+                background: #5b60f5;
+                border-radius: 50%;
+                height: 50px;
+                width: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: white;
+                margin-right: 15px;
+               }
+            }
+        }
+
+    }
+
+
+}
